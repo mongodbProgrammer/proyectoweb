@@ -1,0 +1,44 @@
+body {
+  background-color: #2874A6; /* da color de fondo */
+  display: flex; /* Establece el valor de la propiedad display del elemento body como flex */
+  justify-content: center; /* centra horizontal */
+  align-items: center; /* centra verticalmente */
+  height: 100vh; /* da altura*/
+}
+
+form {
+  width: 700px; /* establece ancho*/
+  background-color: #FBFCFC; /* da color de fondo */
+  padding: 20px; /* da espacio alrededor del texto */
+  border-radius: 5px; /* establece en borde  */
+  background-size: cover; /* ajusta el tamaño del fondo */
+  background-position: center; /* alinea el fondo con el centro */
+  
+}
+
+h2 {
+  text-align: center; /* centra horizontalmente del texto dentro de su cuadro */
+  
+}
+
+label {
+  display: block; /* para que ocupe todo el ancho  */
+}
+
+input {
+  width: 100%; /* establece el ancho */
+  margin-bottom: 10px; /* agrega un margen inferior*/
+}
+
+.button-container {
+  text-align: center; /* centra horizontalmente del texto dentro de su cuadro */
+}
+
+.continue-button {
+  display: inline-block; /* se muestre recto con otros elementos */
+  color: #FBFCFC; /* da color al texto */
+  margin-right: 10px; /* da un margen */
+  padding: 10px 120px;/* da espacio alrededor del texto */
+  background-color: #17202A; /* da color de fondo */
+  text-decoration: none; /* elimina toda la decoracion */
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Prácticas Profesionales</title>
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css"
+          integrity="sha512-CB+XYxRC7cXZqO/8cP3V+ve2+6g6ynOnvJD6p4E4y3+wwkScH9qEOla+BTHzcwB4xKgvWn816Iv0io5l3rAOBA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/proyecto.css" rel="stylesheet">
+</head>
+
+<body class="h-100">
+<div style="position: relative">
+    <div>
+        <div class="col col-12">
+            <a href="index.html" class="fs-1 ps-5"><img style="width: 15rem" class="hover"
+                                                        src="https://upload.wikimedia.org/wikipedia/commons/a/af/Logo-computrabajo.png"
+                                                        alt="..."/></a>
+        </div>
+    </div>
+    <div class="p-4" style="background: #173D62;height: max-content">
+        <div class="col-12 col d-flex justify-content-start gap-2" style="padding-left: 5vw">
+            <div class="d-flex align-items-center">
+                <span class="form-control w-auto"
+                      style="border-radius: .5rem 0 0 .5rem !important; border-right: 1px solid #198aff">
+                  <label for="busqueda"
+                         style="color: #198aff" class="fa fa-suitcase" aria-hidden="true"></label>
+                </span>
+                <input class="form-control"
+                       style="width: 15rem;border-radius: 0 .5rem .5rem 0 !important;"
+                       id="busqueda" placeholder="Haz tu busqueda aquí" type="text"/>
+            </div>
+            <div class="d-flex align-items-center">
+                              <span class="form-control w-auto"
+                                    style="border-radius: .5rem 0 0 .5rem !important; border-right: 1px solid #198aff">
+                  <label for="fecha"
+                         style="color: #198aff" class="fa fa-calendar" aria-hidden="true"></label>
+                </span>
+                <select class="form-control"
+                        style="width: 10rem;border-radius: 0 .5rem .5rem 0 !important;"
+                        id="fecha">
+                    <option value="0">TODO</option>
+                    <option value="1">Este día</option>
+                    <option value="2">Esta semana</option>
+                    <option value="3">Este mes</option>
+                    <option value="4">Estos ultimos 3 meses</option>
+                </select>
+            </div>
+          <div class="d-flex align-items-center ">
+            <button class="btn text-white search" style="background: #9449fe">Buscar</button>
+          </div>
+            <div class="w-auto">
+                <span class="text-white hover" style="margin:0 2.5vw;font-size: 1.5rem">Busca el trabajo más adecuado aquí</span>
+            </div>
+            <div class="d-flex align-items-center">
+              <span class="badge" style="background: #ffc400;">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                          <span class="text-white text-center">Avisame de nuevas ofertas</span>
+              </span>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>
+<div class="d-flex justify-content-center gap-5" style="padding: 0 5vw; margin: 5vh 0">
+    <div class="box-scroll col-4 col overflow-auto pb-2">
+        <div class="container">
+            <ul class="d-flex flex-column box-list empleos" style="list-style: none">
+            </ul>
+        </div>
+    </div>
+    <div class="box-description col-5 col overflow-auto pb-2">
+    </div>
+</div>
+<div style="background: #173D62;" class="w-100 bottom-0 p-4">
+    <p class="text-white text-center m-0">
+        Todos los derechos reservados &copy; 2021
+    </p>
+</div>
+</body>
+<script src="js/lib/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/proyecto.js"></script>
+</html>

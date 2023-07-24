@@ -1,0 +1,170 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+.header {
+  background-color: #23527c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+  color: #dfe6ed;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+}
+
+.header-login a {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #23527c;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-login a:hover {
+  background-color: #dfe6ed;
+  color: #23527c;
+}
+
+.header-login a:last-child {
+  margin-left: 0;
+}
+
+/* Estilos de la sección de búsqueda */
+.search-section {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #23527c;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #23527c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #1a4161;
+}
+
+/* Estilos de la sección de resultados */
+.results-section {
+  padding: 20px;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.job-card h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #23527c;
+}
+
+.job-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.job-card a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #23527c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.job-card a:hover {
+  background-color: #1a4161;
+}

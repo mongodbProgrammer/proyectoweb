@@ -1,0 +1,60 @@
+.box-scroll, .box-description {
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    height: 75vh;
+    border-radius: 0.5rem;
+}
+
+.box-list {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.box-list li {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.box-list-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.1rem 0;
+    color: black;
+}
+.box-list-description{
+    font-size: 1rem;
+    color: #181818;
+}
+
+.box-list-time{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #5b5b5b;
+}
+
+.box-list-priority{
+    font-size: 0.8rem;
+    color: #720000;
+}
+
+.box-list-image{
+    max-width: 4rem;
+    margin-right: 0.5rem;
+    object-fit: contain;
+}
+
+.li-hover{
+    transition: all 0.3s ease-in-out;
+
+}
+
+.li-hover:hover{
+    background: #eee;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+}
+
+.li-active{
+    background: #bdd9ff;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+}

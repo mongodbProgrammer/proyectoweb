@@ -1,0 +1,95 @@
+
+.background{
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.white-box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.white-box img{
+    width: 10rem;
+}
+.userText{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.hover{
+    transition: all 0.1s ease-in-out;
+}
+
+.hover:hover{
+    scale: 1.2;
+}
+
+.animated-image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.43); /* Offset-x, offset-y, blur-radius, color */
+}
+
+.animated-image:hover {
+    width: 200px;
+    animation: rotateScale 2s infinite ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes rotateScale {
+    0% {
+        transform: rotate(-5deg) scale(1);
+    }
+    25% {
+        transform: rotate(5deg) scale(1.01);
+    }
+    50% {
+        transform: rotate(-10deg) scale(1.05);
+    }
+    100% {
+        transform: rotate(-5deg) scale(1);
+    }
+}
+
+
+.tremble-button  {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    animation: tremble 2s infinite;
+}
+
+@keyframes tremble {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px) rotateZ(-2deg);
+    }
+    50% {
+        transform: translateX(5px) rotateZ(2deg);
+    }
+    75% {
+        transform: translateX(-5px) rotateZ(-2deg);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
